@@ -1,4 +1,4 @@
-//randomly assign roles on pageload?
+
 let playerOneChoices = [];
 let playerTwoChoices = [];
 let playerOneScore = 0;
@@ -28,7 +28,7 @@ const winningPatterns = [
   [7, 8, 9],
 ];
 
-//add click event to each box
+
 boxes.forEach((box) => {
   box.addEventListener(
     "click",
